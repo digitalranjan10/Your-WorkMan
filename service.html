@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Provider</title>
+     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+     <style>
+       body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  width: 130px;
+  position: fixed;
+  z-index: 1;
+  top: 20px;
+  left: 10px;
+  background: gray;
+  overflow-x: hidden;
+  padding: 8px 0;
+  margin-top: 58px;
+  /* padding-top: 55px; */
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #2196F3;
+  display: block;
+  height: 95px;
+}
+
+.sidenav a:hover {
+  color: #064579;
+}
+
+.main {
+  margin-left: 140px; /* Same width as the sidebar + left position in px */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+  border: 3px solid black;
+  background-color: #064579;
+  /* width: fit-content; */
+  /* height: 700px; */
+  
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+     </style>
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand">Service Provder</a>
+        
+        <h2>Service Dashboard</h2>
+        <form class="form-inline">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="#" class="btn btn-info btn-sm">
+            <span class="glyphicon glyphicon-user"></span> Monthly  Packege
+          </a>
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="index.html" class="btn btn-info btn-sm">
+            <span class="glyphicon glyphicon-log-out"></span> Log out
+          </a>
+        </form>
+      </nav>
+<hr>
+<!-- body content  -->
+<div class="container">
+
+  <div class="sidenav">
+    <a href="#admin">Admin</a>
+    <a href="#Service">Service</a>
+    <a href="#worker">Worker</a>
+    <a href="#Payment">Payment</a>
+    <a href="#panding">Panding Work</a>
+  </div>
+  
+  <div class="main">
+   <center> 
+    <br>
+     <a href="#" target="_blank">
+<button type="submit" class="btn btn-danger"> Service 1</button> </a> <br> <br>
+     <button type="submit" class="btn btn-primary">Service 2</button> <br> <br>
+     <button type="submit" class="btn btn-success">Service 3</button> <br> <br>
+     <button type="submit" class="btn btn-success">Service 4</button> <br> <br>
+     <button type="submit" class="btn btn-success">Service 5</button>  <br><br>
+  
+  
+  </center>
+  </div>  
+  </div>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hire On Demand</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            background-image: url(bg2.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            
+        }
+        .container {
+             border: 3px solid gray;
+             /* /* background-color: aqua; 
+             opacity: 0.5; */
+             background-color: rgba(50, 115, 220, 0.3);
+             margin-top: 130px;
+             width: fit-content;
+            }
+            h1{
+                color: white;
+            }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>Hire On Demand</h1>
+    </center>
+    <hr style="height:10px">
+    
+    <div class="container">
+        <center>
+         <input type="radio" id="admin" name="Authority" value="admin">
+        <label for="admin">Worker</label>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio" id="student" name="Authority" value="Student">
+        <label for="student">Service Provider</label>
+        </center>
+        <!-- <h2>Vertical (basic) Form</h2> -->
+        <form>
+          <div class="form-group">
+            <!-- <label for="email">Email:</label> -->
+            <h4>Email: </h4>
+            <input type="email" class="form-control" id="email" placeholder="Enter email">
+          </div>
+          <div class="form-group">
+            <!-- <label for="pwd">Password:</label> -->
+            <h4>Password: </h4>
+            <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+          </div>
+          
+         <center>
+            <button type="submit" class="btn btn-primary">Login</button>
+         </center> 
+        </form>
+      </div>
+<br>
+<center>
+      <div class="footer">
+        <a href="service.html" class="btn btn-info" role="button">Service  Page</a>
+        <a href="worker.html" class="btn btn-info" role="button">Worker Page</a>
+      </div>
+</center>
+
+</body>
+</html>
